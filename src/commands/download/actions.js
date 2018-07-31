@@ -18,7 +18,7 @@ export const downloadFileFromProtocol = (protocol, url, folderName) => {
       break
     default:
       console.log(`This ${protocol} protocol doesn't supported`)
-      return `This ${protocol} protocol doesn't supported`
+      return { protocolNotSupported: true }
       break
   }
 }

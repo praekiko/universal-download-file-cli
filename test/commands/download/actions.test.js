@@ -57,7 +57,7 @@ describe('download actions', () => {
         multipleUrls,
         folderName
       )
-      expect(result).to.equal(`This ${protocol} protocol doesn't supported`)
+      expect(result.protocolNotSupported).to.be.true
     })
   })
 })
