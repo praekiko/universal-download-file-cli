@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-npm install -g universal-download-cli
+npm install -g udf-cli
 ```
 
 ## Usage
