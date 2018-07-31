@@ -1,0 +1,37 @@
+{
+  "name": "udf-cli",
+  "version": "0.0.2",
+  "description": "A command-line download file from http, ftp protocol",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "udf": "./index.js"
+  },
+  "scripts": {
+    "test": "mocha --require esm ./test --recursive"
+  },
+  "keywords": [
+    "ftp",
+    "http"
+  ],
+  "author": "Lalitwadee Damyos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/praekiko/universal-download-file-cli/issues"
+  },
+  "homepage": "https://github.com/praekiko/universal-download-file-cli#readme",
+  "dependencies": {
+    "commander": "^2.16.0",
+    "esm": "^3.0.72",
+    "ftp": "^0.3.10",
+    "inquirer": "^6.0.0",
+    "mime-types": "^2.1.19",
+    "progress": "^2.0.0",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.4"
+  }
+}
