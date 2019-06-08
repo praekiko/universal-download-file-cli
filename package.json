@@ -21,17 +21,17 @@
   },
   "homepage": "https://github.com/praekiko/universal-download-file-cli#readme",
   "dependencies": {
-    "commander": "^2.16.0",
-    "esm": "^3.0.72",
+    "commander": "^2.20.0",
+    "esm": "^3.2.25",
     "ftp": "^0.3.10",
-    "inquirer": "^6.0.0",
-    "mime-types": "^2.1.19",
-    "progress": "^2.0.0",
-    "request": "^2.87.0"
+    "inquirer": "^6.3.1",
+    "mime-types": "^2.1.24",
+    "progress": "^2.0.3",
+    "request": "^2.88.0"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0",
-    "sinon": "^6.1.4"
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "sinon": "^7.3.2"
   }
 }
